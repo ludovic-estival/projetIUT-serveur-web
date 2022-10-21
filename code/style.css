@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    background: linear-gradient(103.8deg, rgba(92, 178, 176, 0.9) 0.82%, rgba(63, 82, 181, 0.9) 111.89%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    gap: 38px;
+}
+
+.navbar {
+    position : fixed;
+    top : 0;
+    left : 0;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(153deg, rgba(8,147,144,1) 25%, rgba(63,81,181,1) 85%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 50px 10px 50px;
+}
+
+.navtext {
+    font-size: 20px;
+    /* font-family:  'Roboto', sans-serif; */
+    color: #F1F1F1;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer {
+    background: linear-gradient(153deg, rgba(8,147,144,1) 25%, rgba(63,81,181,1) 85%);
+    text-align: center;
+}
+
+.dropdown-water {
+    display: none;
+    position: absolute;
+    background-color: rgba(63,81,181,1);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding-top: 5px;
+}
+
+.dropdown-water a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-water a:hover {
+    background-color: rgba(8,147,144,1);
+}
+
+.dropdown:hover .dropdown-water {
+    display: block;
+}
+
+a:link{
+    /* font-family:  'Roboto', sans-serif; */
+    color: #F1F1F1;
+    text-decoration: none;
+
+}
+
+a:visited {
+    /* font-family:  'Roboto', sans-serif; */
+    color: #F1F1F1;
+    text-decoration: none;
+}
+
+.bdiv {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    margin: 20px 20px 20px;
+    padding: 20px 30px 20px;
+}
+
+.elt {
+    margin: 20px 50px 20px;
+}
+
+.logo {
+    width: 80%;
+    height: auto;
+    /* border-radius: 5%; */
+    flex-grow: 1;
+    transition-duration: 0.4s;
+}
+
+.me {
+    width: 50%;
+    height: auto;
+}
+
+.logod {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    /* flex-grow: 1; */
+}
+
+body, html {
+    height: 100%;
+}
+
+.hided {
+    height: 76px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 40%;
+    
+}
+
+.hide {
+    display: none;
+    opacity: 0;
+    transition-duration: 0.4s;
+}
+
+.logo:hover + .hide {
+    display: block;
+    opacity: 1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    margin-top: 0;
+}
+
+#histoire {
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    background-color: #95A0DA;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    scroll-behavior: smooth;
+}
+
+/* .chaineVal {
+    padding: 20px 30px 20px;
+} */
+
+.helt {
+    text-align: center;
+}
+
+.cimg {
+    width: 100%;
+    height: auto;
+}
+
+.simg {
+    position:static;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 5%;
+
+}
+
+.line  {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    
+}
+
+.melt{
+    flex-grow: 1;
+    width: 30%;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.borderimg {
+    border-radius: 30px;
+}
