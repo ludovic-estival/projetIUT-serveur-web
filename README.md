@@ -4,7 +4,9 @@
 
 Le but de ce projet est d'installer des services web sur un serveur pour permettre le déploiement d'un site web.
 
-Ce site web a été réalisé lors d'un [projet précédent](https://github.com/ludovic-estival/projetIUT-env-eco).
+Le site à déployer présente les résultats d'une étudé économique de deux entreprises Gree Tech d'Occitanie.
+
+Cette étude a été réalisée dans un projet précédent.
 
 ## Technologies utilisées
 
