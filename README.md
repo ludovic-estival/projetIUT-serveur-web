@@ -26,7 +26,7 @@ Dans un second temps, nous avons produit un document expliquant comment sauvegar
 Compétences développées lors de ce projet:
 
 Installer et configurer un poste de traval
--installer et configurer un système d'exploitation et des outils de développement
--configurer un poste de travail dans un réseau
+- installer et configurer un système d'exploitation et des outils de développement
+- configurer un poste de travail dans un réseau
 
 
